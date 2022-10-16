@@ -1,0 +1,155 @@
+body {
+  background-color: #23252C;
+}
+.page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  max-width: 400px;
+  border: 1px solid #ddb4b4;
+  border-radius: 9px;
+  background-color: #161619;
+  height: 100%;
+}
+
+.image {
+  max-width: 100%;
+  background-image: url('/assets/images/sama2.jpeg');
+  height: 300px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 9px;
+}
+.card {
+  box-shadow: rgb(50, 46, 46);
+  width: 90%;
+  margin: 30px auto;
+  border: 1px solid #ababab;
+  border-radius: 10px;
+  background-color: #1e1e22;
+}
+
+.bio {
+  color: white;
+  text-align: center;
+}
+
+.mail{
+  text-decoration: none;
+  color: white;
+  font-size: 11px
+}
+
+.buttons {
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+}
+
+.button{
+  border: 1px solid rgb(221, 208, 208);
+  /* padding: 10px 20px; */
+  border-radius: 6px;
+  gap: 3;
+  width: 30%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 4px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+button a{
+  text-decoration: none;
+}
+
+.linkedin{
+  background-color: #5093E2 !important;
+  color: white !important;
+}
+
+.email{
+  color: #23252C;
+}
+
+.email a {
+  color: #23252C !important;
+}
+
+.linkedin a {
+  color: white !important;
+}
+
+.button:hover{
+  background-color: #575758 !important;
+  color: white;
+}
+
+.button:hover a {
+  color: white !important;
+}
+
+.linkedin {
+  border: 1px solid rgb(221, 208, 208);
+  background-color: rgb(56, 56, 205);
+  color: white;
+}
+
+
+
+.global-info{
+  color: white;
+  padding: 30px 10%;
+}
+
+.global-info p {
+  font-size: 15px;
+  color: #DCDCDC;
+  font-weight: 400;
+}
+
+.social-media{
+  background-color: #23252C;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  padding: 10px 0;
+}
+
+.social-media i {
+  font-size: 30px !important;
+  color: #918E9B;
+}
+.fa-square-twitter:hover  {
+  color: white;
+}
+
+.fa-facebook:hover  {
+  color: white !important;
+}
+.fa-facebook:hover {
+  color: white;
+}
+
+.fa-square-instagram:hover {
+  color: white !important;
+}
+.fa-square-instagram:hover {
+  color: white;
+}
+
+.fa-square-github:hover {
+  color: white !important;
+}
+.fa-square-github:hover {
+  color: white;
+}
