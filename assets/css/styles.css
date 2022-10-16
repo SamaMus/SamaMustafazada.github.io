@@ -17,7 +17,7 @@ body {
 
 .image {
   max-width: 100%;
-  background-image: url('/assets/images/sama2.jpeg');
+  background-image: url('../images/sama2.jpeg');
   height: 300px;
   object-fit: cover;
   background-repeat: no-repeat;
